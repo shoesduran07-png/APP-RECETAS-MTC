@@ -3,7 +3,7 @@ import { Recipe } from "../types";
 
 // Initialize the client
 // Using process.env.API_KEY as strictly required
-const ai = new GoogleGenAI({ apiKey: import.meta.env.VITE.API.KEY });
+const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
 
 // Schema for Recipe Generation
 const recipeSchema: Schema = {
