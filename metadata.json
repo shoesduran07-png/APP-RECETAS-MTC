@@ -1,0 +1,5 @@
+{
+  "name": "Cocina TCM AI",
+  "description": "Generador de recetas basado en ingredientes disponibles y principios de Medicina Tradicional China, con generación de imágenes, edición y guía de audio.",
+  "requestFramePermissions": []
+}
